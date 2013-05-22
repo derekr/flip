@@ -1,0 +1,16 @@
+{
+  "name": "node-project",
+  "version": "0.0.1",
+  "description": "Key-Function store for registering and checking features and varients.",
+  "main": "src/flip.js",
+  "scripts": {
+    "test": "tap tests/**/*.js",
+    "unit-tests": "tap tests/unit/*.js"
+  },
+  "devDependencies": {
+    "tap": "~0.4.3"
+  },
+  "repository": "",
+  "author": "DIY co <help@diy.org>",
+  "license": "MIT"
+}
