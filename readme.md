@@ -2,7 +2,7 @@
 
 # Flip
 
-A simple singleton key-function store for registering feature toggles and varient values.
+A simple singleton key-function store for registering feature toggles and variant values.
 
 ## Install
 
@@ -68,26 +68,26 @@ flip.check('my-feature', 'drk'); // true
 flip.check('my-feature', 'bogus'); // false
 ```
 
-### Varient
+### Variant
 
-Another common use case is a/b testing or providing a varient per session. Here you can provide a hash of varients where the values are list of keys (users for example) for each varient.
+Another common use case is a/b testing or providing a variant per session. Here you can provide a hash of variants where the values are list of keys (users for example) for each variant.
 
 ```js
-var varients = {
+var variants = {
     awesome: ['astro'],
     favorite: ['drk']
 };
 
-flip.register('my-varient', flip.bundled.varient(varients));
+flip.register('my-variant', flip.bundled.variant(variants));
 
-// Check for varient for a given user
-flip.check('my-varient', 'astro'); // 'awesome'
-flip.check('my-varient', 'drk'); // 'favorite'
-flip.check('my-varient', 'bogus'); // false (no varient has been assigned!)
+// Check for variant for a given user
+flip.check('my-variant', 'astro'); // 'awesome'
+flip.check('my-variant', 'drk'); // 'favorite'
+flip.check('my-variant', 'bogus'); // false (no variant has been assigned!)
 ``` 
 
-In the last example — `'bogus'` — no varient has been assigned. You can handle the 
-logic here for assigning a varient for `'bogus'` and then register the varient again. In this case the varients are stored in memory which isn't extremely useful, but no reason you couldn't use another store like redis.
+In the last example — `'bogus'` — no variant has been assigned. You can handle the 
+logic here for assigning a variant for `'bogus'` and then register the variant again. In this case the variants are stored in memory which isn't extremely useful, but no reason you couldn't use another store like redis.
 
 ## Tests
 
