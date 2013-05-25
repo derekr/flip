@@ -86,7 +86,3 @@ logic here for assigning a varient for `'bogus'` and then register the varient a
 ```
 npm test
 ```
-
-## TODO
-
-* Include functions for common feature/varient creation
