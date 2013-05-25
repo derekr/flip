@@ -4,6 +4,14 @@
 
 A simple singleton key-function store for registering feature toggles and varient values.
 
+## Install
+
+You use npm right?
+
+```
+npm install flip-js
+```
+
 ## Usage
 
 Flip is a singleton, so everytime you `require('flip')` it will return the same instance. It's inspired by routes in express and template helpers in handlebars if you're familiar with either of those.
