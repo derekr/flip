@@ -1,7 +1,7 @@
 {
   "name": "flip-js",
   "version": "0.0.2",
-  "description": "Key-Function store for registering and checking features and varients.",
+  "description": "Key-Function store for registering and checking features and variants.",
   "repository": {
     "type": "git",
     "url": "https://github.com/diy/flip"
@@ -24,7 +24,7 @@
     "feature toggle",
     "feature switch",
     "access control",
-    "varients",
+    "variants",
     "ab testing"
   ],
   "devDependencies": {
