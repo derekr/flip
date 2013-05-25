@@ -1,6 +1,6 @@
 var test = require('tap').test;
 
-var flip = require('../../src/flip.js');
+var flip = require('../../lib/flip.js');
 
 test('verify registered feature', function (t) {
     flip.register('my-feature', function (subject) {

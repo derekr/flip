@@ -1,6 +1,6 @@
 var test = require('tap').test;
 
-var flip = require('../../src/flip.js');
+var flip = require('../../lib/flip.js');
 
 test('varient', function (t) {
     var varients = {
