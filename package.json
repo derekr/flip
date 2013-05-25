@@ -1,16 +1,37 @@
 {
-  "name": "node-project",
+  "name": "flip",
   "version": "0.0.1",
   "description": "Key-Function store for registering and checking features and varients.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diy/flip"
+  },
+  "author": "DIY co <help@diy.org>",
+  "contributors": [ 
+    {
+      "name": "Derek Reynolds",
+      "email": "drk@diy.org"
+    } 
+  ],
   "main": "lib/flip.js",
   "scripts": {
     "test": "tap tests/**/*.js",
     "unit-tests": "tap tests/unit/*.js"
   },
+  "keywords": [
+    "feature",
+    "testing",
+    "feature toggle",
+    "feature switch",
+    "access control",
+    "varients",
+    "ab testing"
+  ],
   "devDependencies": {
     "tap": "~0.4.3"
   },
-  "repository": "",
-  "author": "DIY co <help@diy.org>",
-  "license": "APACHE"
+  "license": "APACHE",
+  "engines": {
+    "node": ">=0.8"
+  }
 }
