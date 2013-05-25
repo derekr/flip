@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/diy/flip.png?branch=master)](https://travis-ci.org/diy/flip)
+
 # Flip
 
 A simple singleton key-function store for registering feature toggles and varient values.
