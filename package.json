@@ -2,11 +2,8 @@
   "name": "flip-js",
   "version": "0.0.3",
   "description": "Key-Function store for registering and checking features and variants.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/diy/flip"
-  },
-  "author": "DIY co <help@diy.org>",
+  "repository": "derekr/flip",
+  "author": "Derek Reynolds <drk@diy.org>",
   "contributors": [
     {
       "name": "Derek Reynolds",
