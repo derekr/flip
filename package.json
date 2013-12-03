@@ -1,6 +1,6 @@
 {
   "name": "flip-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Key-Function store for registering and checking features and variants.",
   "repository": "derekr/flip",
   "author": "Derek Reynolds <drk@diy.org>",
